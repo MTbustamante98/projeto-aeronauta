@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+    html, body{
+        background-color: antiquewhite;
+        background-size: cover;
+        background-image: url(../imgpag1/airplane01.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    #container{
+        display: grid;
+        margin: 5px;
+        background-color: rgba(0, 0, 0, 0.493);
+        height: 395px;
+        width: 340px;
+        float: right;
+        box-shadow: 1px 0px 12px black;
+        border-radius: 5px 5px;
+}
+
+    .q1 > p {
+        color: rgb(245, 240, 240);
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+}
+
+    .q1 h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif ;
+        margin: 0px;
+        padding: 5px;
+}
+
+    div #p1{
+        background-image: radial-gradient(circle, rgba(18, 43, 185, 0.671), rgba(241, 241, 241, 0.658));
+        margin: 0px;
+        padding: 12px;
+}
+
+    div a{
+        color: white;
+        text-decoration: none;
+}
+
+    div a:hover{
+    text-decoration: underline;
+}
+
+    pre{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        font-weight: bold;
+        padding: 0px;
+}
+
+
+    footer{
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: -1px -5px 11px black;
+        margin-left: -8px;
+}
+
+    footer > p{
+        text-align: center;
+        color: white;
+        font-family: 'Sriracha', cursive;
+        margin: 0px;
+}
+
+    footer a{
+        text-decoration: none;
+        color: rgb(0, 119, 255);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+}
+
+    footer a:hover{
+        text-decoration: underline;
+        background-color: rgb(255, 254, 254);
+        border: 2px solid rgba(0, 4, 243, 0.459);
+        border-radius: 5px 5px;
+}
+
+    pre{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+}
