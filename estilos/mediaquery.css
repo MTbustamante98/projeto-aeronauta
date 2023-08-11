@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 817px){
     @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
     
     html, body{
@@ -48,7 +48,7 @@
         padding: 0px;
         text-align: center;
 }
-
+     
     footer {
         background-color: black;
         position: fixed;

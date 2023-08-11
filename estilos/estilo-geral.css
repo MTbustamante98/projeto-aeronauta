@@ -29,29 +29,29 @@
         font-weight: bold;
 }
 
-    .q1 h1{
+    .q1 h1 {
         color: white;
         font-family: Arial, Helvetica, sans-serif ;
         margin: 0px;
         padding: 5px;
 }
 
-    div #p1{
+    div #p1 {
         background-image: radial-gradient(circle, rgba(18, 43, 185, 0.671), rgba(241, 241, 241, 0.658));
         margin: 0px;
         padding: 12px;
 }
 
-    div a{
+    div a {
         color: white;
         text-decoration: none;
 }
 
-    div a:hover{
+    div a:hover {
     text-decoration: underline;
 }
 
-    pre{
+    pre {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: white;
@@ -60,7 +60,7 @@
 }
 
 
-    footer{
+    footer {
         background-color: black;
         position: fixed;
         bottom: 0;
@@ -69,14 +69,14 @@
         margin-left: -8px;
 }
 
-    footer > p{
+    footer > p {
         text-align: center;
         color: white;
         font-family: 'Sriracha', cursive;
         margin: 0px;
 }
 
-    footer a{
+    footer a {
         text-decoration: none;
         color: rgb(0, 119, 255);
         font-weight: bold;
@@ -84,14 +84,14 @@
         margin: 5px;
 }
 
-    footer a:hover{
+    footer a:hover {
         text-decoration: underline;
         background-color: rgb(255, 254, 254);
         border: 2px solid rgba(0, 4, 243, 0.459);
         border-radius: 5px 5px;
 }
 
-    pre{
+    pre {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: white;
