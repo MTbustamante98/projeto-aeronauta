@@ -1,1 +1,45 @@
 @charset "UTF-8";
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+   display: flex;
+   align-items: center;
+}
+
+.flex-block {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.flex-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    padding: 20px;
+    background: lightgrey;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+    background: grey;
+}
+
+.logo {
+    width: 300px;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 200px;
+}
