@@ -4,34 +4,41 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    background: #f7f7f7;
 }
 
-header {
-   display: flex;
+*{
+
+}
+
+#cabecalho {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
    align-items: center;
+   margin-top: 15px;
 }
 
-.flex-block {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
+.principal {
+    font: italic bolder 2em Arial;
 }
 
-.flex-input {
-    display: flex;
-    flex-wrap: wrap;
+#search {
+    margin-left: 250px;
 }
 
 nav {
-    padding: 20px;
-    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 nav > a {
     text-decoration: none;
-    padding: 15px;
-    margin: 5px;
-    background: grey;
+    padding: 5px 40px;
+    background: #ffffff;
+    border-radius: 4px;
+    color: #00BFFF;
 }
 
 .logo {
