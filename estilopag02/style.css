@@ -1,44 +1,71 @@
 @charset "UTF-8";
 body {
     margin: 0px;
-    width: 100vw;
-    height: 100vh;
+    padding: 0px;
+    min-height: 100vh;
     overflow-x: hidden;
-    background: #f7f7f7;
+    position: relative;
 }
 
 *{
-
+    
 }
 
-#cabecalho {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
+header {
+   display: flex;
    align-items: center;
-   margin-top: 15px;
+   margin-left: 30px;
 }
 
-.principal {
-    font: italic bolder 2em Arial;
+.title-one {
+    font: normal bolder 13pt Arial;
+    margin-top: 30px;
 }
 
-#search {
-    margin-left: 250px;
+#principal {
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(134, 29, 29);
 }
 
-nav {
+.detalhe {
+    width: 2px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.384);
+    position: absolute;
+    top: 10px;
+    left: 310px;
+}
+
+.container {
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-nav > a {
+hr {
+    margin: 0px;
+    margin-left: 40px;
+    border: 1px solid rgba(124, 168, 226, 0.76);
+    width: 450px;
+}
+
+.links > a {
     text-decoration: none;
-    padding: 5px 40px;
-    background: #ffffff;
-    border-radius: 4px;
-    color: #00BFFF;
+    padding: 5px;
+    margin-left: 35px;
+    color: #00bfffcb;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    margin-right: 5px;
 }
 
 .logo {
@@ -48,5 +75,5 @@ nav > a {
 footer {
     background: black;
     width: 100%;
-    height: 200px;
+    height: 350px;
 }
