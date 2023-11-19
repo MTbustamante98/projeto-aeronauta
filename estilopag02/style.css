@@ -1,14 +1,14 @@
 @charset "UTF-8";
-body {
+body, html {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
     overflow-x: hidden;
-    position: relative;
 }
 
-*{
-    
+.index {
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -17,15 +17,13 @@ header {
    margin-left: 30px;
 }
 
+.buttons {
+    display: flex;
+}
+
 .title-one {
     font: normal bolder 13pt Arial;
     margin-top: 30px;
-}
-
-#principal {
-    width: 1200px;
-    margin: auto;
-    background-color: rgb(134, 29, 29);
 }
 
 .detalhe {
@@ -47,9 +45,9 @@ header {
 
 hr {
     margin: 0px;
-    margin-left: 40px;
+    margin-left: 50px;
     border: 1px solid rgba(124, 168, 226, 0.76);
-    width: 450px;
+    width: 650px;
 }
 
 .links > a {
@@ -70,6 +68,11 @@ hr {
 
 .logo {
     width: 300px;
+}
+
+#principal {
+    width: 1200px;
+    margin: auto;
 }
 
 footer {
