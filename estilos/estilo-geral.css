@@ -12,12 +12,10 @@
     }
 
     #container{
-        display: grid;
         margin: 20px;
         background-color: rgba(0, 0, 0, 0.493);
         height: 395px;
-        width: 340px;
-        float: right;
+        width: 340px;    
         box-shadow: 1px 0px 12px black;
         border-radius: 5px 5px;
 }
